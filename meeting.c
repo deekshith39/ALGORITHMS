@@ -59,7 +59,7 @@ int evaluate(int a[],int b[])
          if(a[i]>=c)
          {
         printf("Meeting at %d - %d\n",a[i],b[i]);
-        j++;
+        j=i;
         }
 
 
