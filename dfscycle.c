@@ -6,7 +6,7 @@ void dfs(int n)
 {    visited[n]=1;
     for(int i=1;i<=v;i++)
     {
-        if((a[n][i]==1)&&(visited==1))
+        if((a[n][i]==1)&&(visited[i]==1))
         {
             flag=1;
             break;
